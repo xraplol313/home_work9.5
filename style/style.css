@@ -1,0 +1,127 @@
+.wrapper {
+    border-bottom: 3px solid black;
+}
+
+.button {
+    margin: 70px auto;
+    display: block;
+    padding: 20px;
+    color: fuchsia;
+    background-color: aqua;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.modal {
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+    margin-bottom: 20px;
+    color: fuchsia;
+    background-color: aqua;
+}
+
+.close {
+    position: absolute;
+    font-size: 40px;
+    right: 0;
+    top: -15px;
+    cursor: pointer;
+    color: black;
+}
+
+.open {
+    display: block;
+}
+
+.tooltips {
+    margin-top: 100px;
+}
+
+.tooltips__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 20px;
+    color: fuchsia;
+    background-color: aqua;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.tool-t {
+    position: relative;
+}
+
+.tool-t:after {
+    content: 'tooltip top';
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: -20px;
+    left: 0%;
+    width: 100px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+
+.tool-l {
+    position: relative;
+}
+
+.tool-l:after {
+    content: 'tooltip left';
+    display: block;
+    background-color: black;
+    position: absolute;
+    bottom: 25%;
+    right: 100%;
+    width: 100px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+.tool-r {
+    position: relative;
+}
+
+.tool-r:after {
+    content: 'tooltip right';
+    display: block;
+    background-color: black;
+    position: absolute;
+    bottom: 25%;
+    left: 100%;
+    width: 100px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+.tool-b {
+    position: relative;
+}
+
+.tool-b:after {
+    content: 'tooltip bottom';
+    display: block;
+    background-color: black;
+    position: absolute;
+    bottom: -20px;
+    left: 0%;
+    width: 100px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+
+
+
+
